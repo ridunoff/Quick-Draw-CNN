@@ -58,8 +58,8 @@ The CNN was well turned as both the training and testing data had low loss.
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
-A Confusion Matrix shows the actual and predicted results of our algorithm.
+A Confusion Matrix shows outpur of the CNN as a count of the most confident prediction for each drawing in the test dataset.
 <br/><br/>
 
-We can tell that our algorithm was well designed as the highest results are along the diagonals where the actual and predicted categories correspond.
-
+We can tell that our algorithm was well designed as the highest results are along the diagonals where the actual and predicted categories correspond. According to this chart, the CNN has the highest accuracy when trying to classify a bicycle drawing, 
+but it has the lowest accuracy when classifing a drawing of a bee. 
