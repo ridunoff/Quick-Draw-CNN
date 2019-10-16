@@ -10,14 +10,14 @@ Our project could be used as a part of a drawable-search feature for the emoji k
  <p align="center">Open Book (Left); Closed Book (Right)<p>
 
 
-One consideration was that people can interpret a book to be draw as either an open book or a closed book. The CNN should be able to understand both interpretations.
+One consideration was that people can interpret a book to be drawn as either an open book or a closed book. The CNN should be able to understand both interpretations.
 
 <p align="center"><img src="images/differentEmojis.png" width="300"></p>
 <p align="center">Apple Emoji (Left); Google Emoji (Right)</p>
 
-Another consideration was that operating systems can vary in the way they represent emojis (Apple vs Google emoji Keyboards). These differences are converging however some discrepencies still remain.
+Another consideration was that operating systems can vary in the way they represent emojis (Apple vs Google emoji Keyboards). These differences are converging; however, some discrepencies still remain.
 
-Since our product would be more of a novelty feature of a phone's keyboard, it would be fine with a non-perfect level of accuracy. The stakeholders would be people who are new and unfamiliar with the emoji keyboard, so adults that are new to technology, but also good at drawing. One risk of our algorithm not working properly would be frustration of sadi adults with needing to scroll through the enrire emoji keyboard to find the emoji they are looking for.
+Since our product would be more of a novelty feature of a phone's keyboard, it would be fine with a non-perfect level of accuracy. The stakeholders would be people who are new and unfamiliar with the emoji keyboard, so adults that are new to technology, but also good at drawing. One risk of our algorithm not working properly would be frustration of adults with needing to scroll through the entire emoji keyboard to find the emoji they are looking for.
 
 
 ## The Data
@@ -46,10 +46,10 @@ The model was able to correctly guess images within a resonable margin of error!
 <br/>
 
 <p align="center"><img src="images/test_train_loss.jpg" width="400"></p>
-<p align="center">The CNN was well turned as both the training and testing data had low loss. </p>
+<p align="center">The CNN was well trained as both the training and testing data had low loss. </p>
 <br/>
 
-We discoved that 5000 images in the training set gave us around 79% accuracy of correctly classifying the drawing in the testing data set. The training accuracy was around 82% accurate.
+We discoved that 50000 images in the training set, 5000 in each class, gave us around 79% accuracy of correctly classifying the drawing in the testing data set. The training accuracy was around 82% accurate.
 <br/>
 
 <p align="center"><img src="images/confusion_matrix.png" width="800"></p>
