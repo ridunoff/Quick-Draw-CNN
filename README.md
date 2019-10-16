@@ -58,5 +58,5 @@ We discoved that 50000 images in the training set, 5000 in each class, gave us a
 We can tell that our algorithm was well designed as the highest results are along the diagonals where the actual and predicted categories correspond. According to this chart, the CNN has the highest accuracy when trying to classify a bicycle drawing, 
 but it has the lowest accuracy when classifing a drawing of a bee. 
 
-##Authors
+## Authors
 Kristin Aoki and Raquel Dunoff
