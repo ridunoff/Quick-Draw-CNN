@@ -5,8 +5,7 @@ A convolutional neural net that classifies images from Google's Quick, Draw! dat
 
 Our project could be used as a part of a drawable-search feature for the emoji keyboard. When designing this model, we had to consider the different representations of emojis across platforms and also the different interpretations of representing a word visually. 
 
- <img src="images/openBook.png" width="200"> 
- <img src="images/closedBook.png" width="200"> 
+ <img src="images/openBook.png" width="200"> <img src="images/closedBook.png" width="200"> 
 
 Some people can interpret a book to be draw as either an open book or a closed book. The CNN should be able to understand both interpretations.
 
@@ -19,7 +18,7 @@ Some operating systems can vary in the way they represent emojis (Apple vs Googl
 
 We used drawings from [Google's Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset. 
 
- <img src="images/airplaneHeatmap.png" width="200"> 
+ <img src="images/airplaneHeatmap.png" width="400"> 
 
 The drawings were represented as a 28x28 heatmap
 
@@ -32,7 +31,7 @@ The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cooki
 
 The model was able to correctly guess images within a resonable margin of error!
 
- <img src="images/airplaneHeatmap.png" width="200"> 
+ <img src="images/airplaneHeatmap.png" width="400"> 
 
 ![Results](images/airplaneResults.png)
 
