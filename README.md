@@ -7,13 +7,13 @@ Our project could be used as a part of a drawable-search feature for the emoji k
 
  <img src="images/openBook.png" height="200">       <img src="images/closedBook.png" height="200"> 
  Open Book                Closed Book
+<br/>
 
 One consideration was that people can interpret a book to be draw as either an open book or a closed book. The CNN should be able to understand both interpretations.
 
 <img src="images/differentEmojis.png" width="300"> 
-Apple Emoji (Left) Google Emoji (Right)
-
-
+Apple Emoji (Left); Google Emoji (Right)
+<br/>
 
 Another consideration was that operating systems can vary in the way they represent emojis (Apple vs Google emoji Keyboards). These differences are converging however some discrepencies still remain.
 
