@@ -31,7 +31,7 @@ We used drawings from [Google's Quick, Draw!](https://quickdraw.withgoogle.com/d
 We deliberatly chose datasets that looked different from each other in order to create a more accurate model to validate that our algorithm could work to classify images.
 
 The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cookie, helicopter, lightbulb, pants, and strawberry.
-
+The datasets can be found [here](https://drive.google.com/drive/folders/1FwAnEra0XktCBU55ziDWUhDA-L-uWXzF?usp=sharing).
 
 ## The Results
 
