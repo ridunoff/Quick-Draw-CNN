@@ -31,9 +31,9 @@ The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cooki
 
 The model was able to correctly guess images within a resonable margin of error!
 
- <img src="images/airplaneHeatmap.png" width="400"> 
+ <img src="images/test_image.png" width="400"> 
 
-![Results](images/airplaneResults.png)
+![Results](images/confidence.png)
 
 We also discoved that 5000 images in the training set gave us around 81% accuracy.
 
