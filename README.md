@@ -37,11 +37,11 @@ The model was able to correctly guess images within a resonable margin of error!
 
 We also discoved that 5000 images in the training set gave us around 81% accuracy.
 
-![Modeled Loss](test_train_loss.jpg)
+![Modeled Loss](images/test_train_loss.jpg)
 
 This Complexity Chart shows the actual and predicted results of our algorithm.
 
-![Complexity Chart](images/complexityChart.jpg)
+![Complexity Chart](images/confusion_matrix.png)
 
 
 
