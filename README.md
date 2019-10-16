@@ -37,7 +37,7 @@ The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cooki
 
 The model was able to correctly guess images within a resonable margin of error!
 
- <p align="center">Heatmap of Another Airplane Drawing</p>
+ <p align="center" font-weight="bold">Heatmap of Another Airplane Drawing</p>
  <p align="center"><img src="images/test_image.png" width="400"></p>
 
 <p align="center">Results of the CNN on the Airplane Drawing as a Confidence Plot</p>
@@ -46,10 +46,10 @@ The CNN was able to correctly classify the airplane as the Confidence Plot shows
 
 We discoved that 5000 images in the training set gave us around 79% accuracy of correctly classifying the drawing in the testing data set. The training accuracy was around 82% accurate.
 
-<p align="center"><img src="images/test_train_loss.png" width="400"></p>
+<p align="center"><img src="images/test_train_loss.jpg" width="400"></p>
 <p align="center">The CNN was well turned as both the training and testing data had low loss. </p>
 
-<p align="center"><img src="images/confusion_matrix.png" width="400"></p>
+<p align="center"><img src="images/confusion_matrix.png" width="800"></p>
 <p align="center">A Confusion Matrix shows output of the CNN as a count of the most confident prediction for each drawing in the test dataset. </p>
 
 
