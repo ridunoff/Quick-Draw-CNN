@@ -5,11 +5,11 @@ A convolutional neural net that classifies images from Google's Quick, Draw! dat
 
 Our project could be used as a part of a drawable-search feature for the emoji keyboard. When designing this model, we had to consider the different representations of emojis across platforms and also the different interpretations of representing a word visually. 
 
-[Open Book Drawing](images/openBook.jpg) [Closed Book Drawing](images/closedBook.jpg)
+![Open Book Drawing](images/openBook.jpg) ![Closed Book Drawing](images/closedBook.jpg)
 
 Some people can interpret a book to be draw as either an open book or a closed book. The CNN should be able to understand both interpretations.
 
-[Different Emojis](differentEmojis.jpg)
+![Different Emojis](differentEmojis.jpg)
 
 Some operating systems can vary in the way they represent emojis (Apple vs Google emoji Keyboards). These differences are converging however some discrepencies still remain.
 
@@ -18,7 +18,7 @@ Some operating systems can vary in the way they represent emojis (Apple vs Googl
 
 We used drawings from [Google's Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset. 
 
-[Drawing of a Airplane](/images/airplaneHeatmap.jpg)
+![Drawing of a Airplane](/images/airplaneHeatmap.jpg)
 
 The drawings were represented as a 28x28 heatmap
 
@@ -31,17 +31,17 @@ The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cooki
 
 The model was able to correctly guess images within a resonable margin of error!
 
-[Drawing of an Airplane](images/airplaneHeatmap.png)
+![Drawing of an Airplane](images/airplaneHeatmap.png)
 
-[Results](images/airplaneResults.jpg)
+![Results](images/airplaneResults.jpg)
 
 We also discoved that 5000 images in the training set gave us around 81% accuracy.
 
-[Modeled Loss](test_train_loss.jpg)
+![Modeled Loss](test_train_loss.jpg)
 
 This Complexity Chart shows the actual and predicted results of our algorithm.
 
-[Complexity Chart](images/complexityChart.jpg)
+![Complexity Chart](images/complexityChart.jpg)
 
 
 
