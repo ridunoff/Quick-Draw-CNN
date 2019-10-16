@@ -6,6 +6,7 @@ A convolutional neural net that classifies images from Google's Quick, Draw! dat
 Our project could be used as a part of a drawable-search feature for the emoji keyboard. When designing this model, we had to consider the different representations of emojis across platforms and also the different interpretations of representing a word visually. 
 
  <img src="images/openBook.png" height="100">       <img src="images/closedBook.png" height="100"> 
+ 
  Open Book (Left); Closed Book (Right)
 <br/><br/>
 
@@ -25,6 +26,8 @@ Since our product would be more of a novelty feature of a phone's keyboard, it w
 We used drawings from [Google's Quick, Draw!](https://quickdraw.withgoogle.com/data) dataset. 
 
  <img src="images/airplaneHeatmap.png" width="400"> 
+ Heatmap of an Airplane Drawing
+<br/><br/>
 
 The drawings were represented as a 28x28 heatmap
 
@@ -38,16 +41,22 @@ The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cooki
 The model was able to correctly guess images within a resonable margin of error!
 
  <img src="images/test_image.png" width="400"> 
+  Heatmap of another Airplane Drawing
+<br/><br/>
 
 ![Results](images/confidence_plt.png)
+ Results of the CNN on the Airplane Drawing as a Confidence Plot
+<br/><br/>
 
 We also discoved that 5000 images in the training set gave us around 79% accuracy of correctly classifying the drawing in the testing data set. The training accuracy was around 82% accurate.
 
 ![Modeled Loss](images/test_train_loss.jpg)
-
-This Confusion Matrix shows the actual and predicted results of our algorithm.
+The CNN was well turned as both the training and testing data had low loss. 
+<br/><br/>
 
 ![Confusion Matrix](images/confusion_matrix.png)
+A Confusion Matrix shows the actual and predicted results of our algorithm.
+<br/><br/>
 
-
+We can tell that our algorithm was well designed as the highest results are along the diagonals where the actual and predicted categories correspond.
 
