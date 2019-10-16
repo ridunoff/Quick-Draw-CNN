@@ -45,16 +45,19 @@ The model was able to correctly guess images within a resonable margin of error!
 <br/><br/>
 
 ![Results](images/confidence_plt.png)
+
  Results of the CNN on the Airplane Drawing as a Confidence Plot
 <br/><br/>
 
 We also discoved that 5000 images in the training set gave us around 79% accuracy of correctly classifying the drawing in the testing data set. The training accuracy was around 82% accurate.
 
 ![Modeled Loss](images/test_train_loss.jpg)
+
 The CNN was well turned as both the training and testing data had low loss. 
 <br/><br/>
 
 ![Confusion Matrix](images/confusion_matrix.png)
+
 A Confusion Matrix shows the actual and predicted results of our algorithm.
 <br/><br/>
 
