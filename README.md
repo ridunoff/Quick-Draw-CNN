@@ -8,7 +8,7 @@ Our project could be used as a part of a drawable-search feature for the emoji k
 <p align="center"> 
  <p align="center">  <img src="images/openBook.png" height="100">       <img src="images/closedBook.png" height="100">  </p>
 
- Open Book (Left); Closed Book (Right)
+ <p align="center">Open Book (Left); Closed Book (Right)<p>
 <br/><br/>
 
 </p>
