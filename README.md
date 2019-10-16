@@ -5,15 +5,15 @@ A convolutional neural net that classifies images from Google's Quick, Draw! dat
 
 Our project could be used as a part of a drawable-search feature for the emoji keyboard. When designing this model, we had to consider the different representations of emojis across platforms and also the different interpretations of representing a word visually. 
 
- <img src="images/openBook.png" height="200">       <img src="images/closedBook.png" height="200"> 
- Open Book                Closed Book
-<br/>
+ <img src="images/openBook.png" height="100">       <img src="images/closedBook.png" height="100"> 
+ Open Book (Left); Closed Book (Right)
+<br/><br/>
 
 One consideration was that people can interpret a book to be draw as either an open book or a closed book. The CNN should be able to understand both interpretations.
 
 <img src="images/differentEmojis.png" width="300"> 
 Apple Emoji (Left); Google Emoji (Right)
-<br/>
+<br/><br/>
 
 Another consideration was that operating systems can vary in the way they represent emojis (Apple vs Google emoji Keyboards). These differences are converging however some discrepencies still remain.
 
