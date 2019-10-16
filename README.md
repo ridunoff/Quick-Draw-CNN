@@ -39,9 +39,9 @@ We also discoved that 5000 images in the training set gave us around 81% accurac
 
 ![Modeled Loss](images/test_train_loss.jpg)
 
-This Complexity Chart shows the actual and predicted results of our algorithm.
+This Confusion Matrix shows the actual and predicted results of our algorithm.
 
-![Complexity Chart](images/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 
 
