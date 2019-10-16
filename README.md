@@ -22,9 +22,9 @@ We used drawings from [Google's Quick, Draw!](https://quickdraw.withgoogle.com/d
 
 The drawings were represented as a 28x28 heatmap
 
-We deliberatly chose datasets that looked different from eachother in order to create a more accurate model to validate that our algorithm could work to classify images.
+We deliberatly chose datasets that looked different from each other in order to create a more accurate model to validate that our algorithm could work to classify images.
 
-The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cookie, helicopter, lightbulb, pants, and strawberry
+The datasets we chose were: airplane, basketball, bee, bicycle, butterfly, cookie, helicopter, lightbulb, pants, and strawberry.
 
 
 ## The Results
@@ -35,7 +35,7 @@ The model was able to correctly guess images within a resonable margin of error!
 
 [Results](images/airplaneResults.jpg)
 
-We also discoved that 5000 images in the training set gave us around 78% accuracy.
+We also discoved that 5000 images in the training set gave us around 81% accuracy.
 
 [Modeled Loss](images/lossPlot.jpg)
 
