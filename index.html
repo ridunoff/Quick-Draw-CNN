@@ -20,10 +20,21 @@
 
     <!-- kick it off -->
     <script>
-        LC.init(
-            document.getElementsByClassName('my-drawing')[0],
-            {imageURLPrefix: '/static/img'}
-        );
+$(document).ready(function() {
+    var imageSize = {width: 200, height: 200};
+    var imageBounds = {
+      x: 0, y: 0, width: imageSize.width, height: imageSize.height
+    };
+    var lc = LC.init(
+      document.getElementsByClassName('literally export-bounded')[0],
+      {imageSize: imageSize}
+    );
+    $('.controls.export-bounded [data-action=export-as-png]')
+      .click(function(e) {
+        e.preventDefault();
+        window.open(lc.getImage({rect: imageBounds}).toDataURL());
+      });
+  });
     </script>
   </body>
 </html>
